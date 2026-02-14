@@ -2,7 +2,7 @@ import telebot
 import json
 import os
 
-TOKEN = os.environ.get("8454099300:AAEepTp2iinHGrl2YYLQNO6_1u18rzCKmsg")
+TOKEN = os.environ.get("BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 DATA_FILE = "products.json"
